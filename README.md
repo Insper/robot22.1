@@ -3,7 +3,7 @@
 Material de exercícios e guias para a disciplina de Robótica Computacional do 3o. Eng. Comp
 
 [Aula 1 - Imagens e modelos de cores](./aula01)
-
+[Aula 2 - Formação das imagens e segmentação por cores](./aula02)
 
 ## Projetos antigos
 
