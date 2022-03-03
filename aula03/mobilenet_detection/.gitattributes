@@ -1,0 +1,2 @@
+MobileNetSSD_deploy.caffemodel filter=lfs diff=lfs merge=lfs -text
+MobileNetSSD_deploy.prototxt.txt filter=lfs diff=lfs merge=lfs -text
