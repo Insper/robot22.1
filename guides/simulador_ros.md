@@ -21,7 +21,7 @@ Sempre faça isto antes de instalar novos pacotes do ubuntu:
 
 Vamos os certificar de que temos alguns softwares essenciais para o Turtlebot 3:
 
-    sudo apt install ros-noetic-turtlebot3-msgs  ros-noetic-turtlebot3-applications-msgs
+    sudo apt install ros-noetic-turtlebot3-msgs
 
 
 Vamos nos certificar de que já temos os softwares do `Turtlebot` (só precisa ser feito uma vez):
@@ -102,6 +102,10 @@ De permissão para executar com os comandos a seguir;
 
 
 ### Mudando o cenário
+
+#### Dica: como vamos precisar abrir vários emuladores do terminal, recomenda-se usar o `terminator`
+
+    sudo apt install terminator
 
 Podemos trocar o cenário mudando o `launch` file. Este abre com o robô em uma casa
     

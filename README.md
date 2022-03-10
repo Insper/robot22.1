@@ -30,6 +30,23 @@ Projeto de 2020.1
 
 Devemos usar o PAT no lugar da senha quando autenticar pelo git na linha de comando.
 
+## ROS e robôs
+
+[1 - Simulador Gazebo](./guides/simulador_ros.md)
+
+[2 - ROS topics - como explorar](./guides/ros_topics.md)
+
+[3 - Parar o robô via terminal](./guides/parar_robo.md)
+
+[4 - Como criar um projeto Ros Python](./guides/projeto_rospython.md)
+
+[5 - Robô virtual com webcam](./guides/debugar_sem_robo_opencv_melodic.md)
+
+[6 - Conexão ao robô físico](./guides/bringup_turtlebot.md)
+
+[7 - Calibrar câmera](./guides/calibrar_camera.md)
+
+[8 - Ros Bag](./guides/rosbag.md)
 
 ## SSD de Robótica
 
