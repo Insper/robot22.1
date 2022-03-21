@@ -3,7 +3,21 @@
 Material de exercícios e guias para a disciplina de Robótica Computacional do 3o. Eng. Comp
 
 [Aula 1 - Imagens e modelos de cores](./aula01)
+
 [Aula 2 - Formação das imagens e segmentação por cores](./aula02)
+
+[Aula 3 - Transformada de Hough e Redes Neurais](./aula03)
+
+[Aula 4 - Introdução a ROS](./aula04)
+
+[Aula 5 - Reolução de questões](./aula05)
+
+## Revisão para provas
+
+[Material de estudo para Avaliações](./revisao/atividades_revisao.md)
+
+[Lista de provas anteriores (maioria com gabarito)](./revisao/lista_provas_anteriores.md)
+
 
 ## Projetos antigos
 
