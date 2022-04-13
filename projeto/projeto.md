@@ -27,7 +27,7 @@ https://github.com/Insper/robot22.1/blob/main/guides/projeto_rospython.md#usando
 
 ## Rubricas
 
-**Conceito I - Mínimo para ter direito à Delta**
+**Conceito D - Mínimo para ter direito à Delta**
 
 O robô percorre toda a pista, parando onde começou, usando
 a odometria para saber de onde saiu e fazendo o slalom. É preciso gravar todo o circuito,  que deve ser percorrido em mendos de 30 min (tempo do simulador).
@@ -37,6 +37,8 @@ a odometria para saber de onde saiu e fazendo o slalom. É preciso gravar todo o
 
 Robô é capaz de percorer toda a pista, fazendo o slalom, parando onde começou. Depois, deve procurar e se chocar contra um creeper da cor certa e ID corretos, voltando depois à pista. A cor e o ID do creeper deve ser escolhida como um parâmetro do programa, ou seja, deve funcionar para qualquer cor e ID pedidos (desde a dupla seja válida). É preciso gravar todo o circuito, que deve ser percorrido em mendos de 30 min.
 
+Para atingir este conceito, também é necessário demonstrar o trabalho em equipe, com commits equilibrados de todos os integrantes. Isso vale para todos os conceitos superiores também. 
+
 
 **Conceito C+**
 
@@ -44,7 +46,7 @@ Robô é capaz de percorer toda a pista, fazendo o slalom, parando onde começou
 
 Encostar no creeper significa, especificamente: chegar bem perto do creeper com a garra abaixada, e então parar o robô e levantar a garra.
 
-É preciso gravar todo o circuito, que deve ser percorrido em mendos de 30 min.
+É preciso gravar todo o circuito, que deve ser percorrido em mendos de 30 min. Também é preciso comprovar o trabalho em equipe. 
 
 
 **Conceito B** 
@@ -84,14 +86,13 @@ Fazer um dentre os quatro *especiais*:
 * Mapear os Arucos da pista e dos creepers usando o modo 3D e odometria.
 * Estruturar o programa com pelo menos um node ROS prestando serviço para o outro.
 
-
 **Conceito A+**
 
 Itens do conceito A e fazer 3 especiais em vez de apenas um.
 
 **Conceito A+ para grupos de 4**
 
-Itens do conceito A e fazer todos os 5 especiais
+Itens do conceito A e fazer todos os 4 especiais
 
 ### Grupos de 4 pessoas 
 
@@ -100,6 +101,11 @@ Os grupos de 4 pessoas terão sempre um conceito deslocado em relacão aos de 3 
 Para obter A+ num grupo de 4, é necessário  fazer os 4 especiais.
 
 Assim, o necessário para conceito B em grupos de 3 representa o conceito C+ em grupos de 4.
+
+
+### Uso do robô real
+
+Caso o projeto seja apresentado no robô real, a nota subirá um conceito relativamente ao que foi entregue. Assim, caso for cumprida a rubrica do conceito C para o seu grupo, tiver sido utilizado o robô real, a nota do projeto será um **C+**. 
 
 
 <img src="./pista virtual.png">
