@@ -23,7 +23,7 @@ marker_size  = 20 #- [cm]
 
 
 #--- Get the camera calibration path
-calib_path  = "/home/borg/catkin_ws/src/robot21.2/ros/exemplos/scripts/"
+calib_path  = "/home/borg/catkin_ws/src/robot22.1/projeto/aruco/"
 camera_matrix   = np.loadtxt(calib_path+'cameraMatrix_raspi.txt', delimiter=',')
 camera_distortion   = np.loadtxt(calib_path+'cameraDistortion_raspi.txt', delimiter=',')
 
