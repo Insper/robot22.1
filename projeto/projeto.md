@@ -35,7 +35,13 @@ a odometria para saber de onde saiu e fazendo o slalom. É preciso gravar todo o
 
 **Conceito C**
 
-Robô é capaz de percorer toda a pista, fazendo o slalom, parando onde começou. Depois, deve procurar e se chocar contra um creeper da cor certa e ID corretos, voltando depois à pista. A cor e o ID do creeper deve ser escolhida como um parâmetro do programa, ou seja, deve funcionar para qualquer cor e ID pedidos (desde a dupla seja válida). É preciso gravar todo o circuito, que deve ser percorrido em mendos de 30 min.
+Robô é capaz de percorrer toda a pista, fazendo o *slalom*, parando onde começou.
+É preciso realizar uma dentre duas tarefas:
+ 
+1. Depois de dar volta, deve procurar e se chocar contra um creeper da cor certa e ID corretos, voltando depois à pista. A cor e o ID do creeper deve ser escolhida como um parâmetro do programa, ou seja, deve funcionar para qualquer cor e ID pedidos (desde a dupla seja válida); **ou** 
+2. Percorrer a pista com o *slalom* usando o robô real. Caso seja necessário, a parede próxima às caixas vermelha e azul presente no simulador pode ser replicada com o auxílio de caixas.
+ 
+É preciso gravar todo o circuito, que deve ser percorrido em menos de 30 min.
 
 Para atingir este conceito, também é necessário demonstrar o trabalho em equipe, com commits equilibrados de todos os integrantes. Isso vale para todos os conceitos superiores também. 
 
@@ -167,7 +173,7 @@ Exemplo de como interpretar os markers ARUCO
 [./aruco/aruco.ipynb] (./aruco/aruco.ipynb)
 
 Exemplo de como programar usando os markers ARUCO em 3D 
-[https://github.com/Insper/robot22.1/blob/master/ros/exemplos/scripts/aruco.py](https://github.com/Insper/robot21.2/blob/master/ros/exemplos/scripts/aruco.py)
+[https://github.com/Insper/robot22.1/blob/main/projeto/aruco/aruco.py](https://github.com/Insper/robot22.1/blob/main/projeto/aruco/aruco.py)
 
 # Instruções sobre os tópicos da garra 
 
@@ -200,8 +206,8 @@ Visualizar arvore:
 
     rosrun rqt_gui rqt_gui 
     
-Exemplo de codigo py
+Exemplo de codigo py:
 
-[https://github.com/Insper/robot22.1/blob/master/ros/exemplos/scripts/move_garra.py](https://github.com/Insper/robot21.2/blob/master/ros/exemplos/scripts/move_garra.py)
+[https://github.com/Insper/robot22.1/blob/main/ros/exemplos_221/scripts/garra_simples.py](https://github.com/Insper/robot22.1/blob/main/ros/exemplos_221/scripts/garra_simples.py)
 
 
