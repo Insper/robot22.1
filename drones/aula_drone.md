@@ -14,7 +14,7 @@ Após instalar o simulador, você pode simular um cenário com caixas através d
 roslaunch exemplos212 mav_fake_driver.launch 
 ```
 
-Então faça o *take off* e execute o programa de exemplo, que está na pasta [ros/exemplos](./ros/exemplos).
+Então faça o *take off* e execute o programa de exemplo, que está na pasta [ros/exemplos](https://github.com/Insper/robot22.1/blob/main/ros/exemplos_221/scripts/visao_bebop.py).
 
 ```bash
 rosrun exemplos221 visao_bebop.py 
