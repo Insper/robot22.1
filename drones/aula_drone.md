@@ -4,7 +4,18 @@ Nesta semana iremos trabalhar com o drone Bebop, da Parrot. Na aula de laborató
 
 Cada grupo irá usar o ROS instalado no próprio SSD para fazer o programa de controle do drone. Para tanto basta conectar ao drone correto e configurar o `IPberry` para o IP do notebook que roda o driver do drone. Esse notebook está preparado de acordo com o [guia](https://github.com/Insper/bebop_sphinx/blob/master/docs/bebop_tutorial.md#como-conectar-no-drone-se-voc%C3%AA-j%C3%A1-tem-o-bebop_autonomy-instalado) para se conectar ao Bebop real, que funciona apenas com o ROS Melodic e Ubunto 18.04.
 
-No cenário da competição haverá quatro arucos impressos em papel A3 e presos no chão. Então cada grupo deverá escrever um Twist no tópico `/bebop2/camera_control` para fazer o drone olha para baixo (no máximo 80º). O objetivo da competição é criar um programa em Python que faça o drone sobrevoar os quatro arucos e completar a volta, fazendo o percurso no menor tempo possível. Para se orientar, o drone deve encontrar o próximo aruco, alinhar-se com ele e ir de encontro ao próximo aruco.
+No cenário da competição haverá quatro arucos impressos em papel A3 e presos no chão. Então cada grupo deverá escrever um Twist no tópico `/bebop2/camera_control` para fazer o drone olha para baixo (no máximo 80º). 
+
+```bash
+rostopic pub --once /bebop2/camera_control geometry_msgs/Twist -- '[0.0, 0.0, 0.0]' '[0.0, -80.0, 0.0]'
+```
+
+Para manipular o drone via teleop:
+```bash
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=bebop/cmd_vel
+```
+
+O objetivo da competição é criar um programa em Python que faça o drone sobrevoar os quatro arucos e completar a volta, fazendo o percurso no menor tempo possível. Para se orientar, o drone deve encontrar o próximo aruco, alinhar-se com ele e ir de encontro ao próximo aruco.
 
 O desenvolvimento do programa deve ser realizado com o auxílio do simulador do Bebop. Siga os passos no [guia do simulador do Bebop] (https://github.com/Insper/404/blob/master/tutoriais/robotica/guia_drone_ros_noetic.md).
 
