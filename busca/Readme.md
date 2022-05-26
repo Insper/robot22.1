@@ -30,16 +30,20 @@ Este projeto é de entrega obrigatória.
 
 2. Mapeie o cenário do projeto usando o algortimo `gmapping`. Veja o tutorial em https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md. Não esqueça de filmar o robô simulado e o RViz. Carregue o cenário com o comando:
 
-        roslaunch my_simulation projeto_2020.launch
+        roslaunch my_simulation projeto_2022.launch
 
 3. Faça a navegação do robô real ou simulado com o comando:
 
         roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=<arquivo_mapa>
     
-    Importante:
     
-    - Você deverá iniciar o simulador ou *bringup* com o robô real antes de executar a navegação
-    - O arquivo do mapa será diferente para o robô real ou o simulado. O mapa do ambiente real será fornecido.
+#### Importante:
+
+    - Link para aceitar o projeto (grupo do projeto 1):https://classroom.github.com/a/vbj5-Vm_
+    - Você deve portar os arquivos Python de busca para orepositório do projeto.
+    - Você deverá iniciar o simulador antes de executar a navegação
+    - No caso de usar o robô real, **não pode** executar o *bringup* 
+    - O arquivo do mapa será diferente para o robô real ou o simulado. O mapa do ambiente real é fornecido junto com o repositório do projeto de busca.
     - Não esqueça de filmar a execução da trajetória pelo robô e na tela do RViz.
 
 
