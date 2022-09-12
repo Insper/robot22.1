@@ -147,11 +147,11 @@ Por exemplo, o objetivo `("blue", 22, "bird")` significa *Encontre o creeper azu
 
 Comandos para atualizar os repositório
 ```bash
-    cd ~catkin_ws/src/mybot_description
+    cd ~/catkin_ws/src/mybot_description
     git pull
-    cd ~catkin_ws/src/my_simulation
+    cd ~/catkin_ws/src/my_simulation
     git pull
-    cd ~catkin_ws/src/robot22.1
+    cd ~/catkin_ws/src/robot22.1
     git pull
 ```
 
